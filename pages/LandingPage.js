@@ -31,7 +31,7 @@ export default function LandingPage() {
           }}
         >
           <p className="hero_subtext">
-            You have watched it, now you can taste it
+            You watched it, now you can taste it
           </p>
           <p className="hero_mainText">BRINGING ANIME</p>
           <p className="hero_mainText_2">FOOD TO LIFE</p>
