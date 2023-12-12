@@ -1,0 +1,1555 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero_text {
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 400px;
+}
+
+.hero_subtext {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.hero_mainText {
+  margin-top: 5px;
+  font-size: 68px;
+  font-weight: 800;
+}
+
+.hero_mainText_2 {
+  margin-top: 10px;
+  font-size: 68px;
+  font-weight: 800;
+  background-color: rgb(255, 37, 37);
+}
+
+.hero2_img {
+  height: 1000px;
+}
+
+.knife {
+  height: 600px;
+}
+
+.second_page_book {
+  margin-top: 300px;
+}
+
+.second_page_book_head {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.second_page_book_sub {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.second_page_text {
+  margin-top: 70px;
+}
+
+.second_page_tex {
+  margin-top: 70px;
+  z-index: 2;
+}
+
+.second_page_book_btn {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  margin-top: 40px;
+  width: 220px;
+  height: 55px;
+  font-weight: 500;
+}
+
+.menu_item {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.noodles_black {
+  height: 700px;
+}
+
+.start_desert {
+  height: 350px;
+}
+
+.fodd {
+  height: 250px;
+}
+
+.menu_item {
+  margin-top: 150px;
+}
+
+.menu_book_btn {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  width: 220px;
+  height: 55px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.menu_text {
+  font-size: 18px;
+}
+
+.dish {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 150px;
+}
+
+.f1 {
+  height: 95px;
+  margin-left: 190px;
+  position: relative;
+  top: 450px;
+}
+
+.chicken {
+  height: 200px;
+  z-index: 2;
+}
+
+.stick_one {
+  height: 500px;
+  z-index: 0;
+  position: absolute;
+  transform: rotate(20deg);
+}
+
+.zuko {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 100px;
+}
+
+.stick_two {
+  z-index: 1;
+  height: 500px;
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+.chop {
+  position: relative;
+}
+
+.stick_item {
+  position: relative;
+}
+
+.cook {
+  height: 1000px;
+  z-index: 2;
+}
+
+.banner {
+  z-index: 1;
+}
+
+.books {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.frame {
+  height: 400px;
+}
+
+.curve {
+  position: relative;
+  bottom: 200px;
+}
+
+.na {
+  z-index: 5;
+}
+
+.photo {
+  z-index: 4;
+  position: relative;
+  left: 70px;
+}
+
+.peace {
+  z-index: 4;
+  position: relative;
+  right: 70px;
+}
+
+.fox {
+  position: relative;
+  right: 150px;
+  z-index: 3;
+}
+
+.catty {
+  position: relative;
+  left: 150px;
+  z-index: 3;
+}
+
+.items {
+  overflow: hidden;
+  position: relative;
+}
+
+.sword {
+  height: 700px;
+  position: absolute;
+}
+
+.test {
+  position: relative;
+}
+
+.swords {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  margin-top: 150px;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+}
+
+.small {
+  width: 100px;
+}
+
+.big {
+  width: 200px;
+}
+
+.cha {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.feast {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.carousel {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.inpu_barr {
+  margin-top: 20px;
+}
+
+.fr {
+  height: 300px;
+}
+
+.input_bar {
+  width: 250px;
+  height: 40px;
+  border: 3px solid black;
+}
+
+.newsletter {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 130px;
+}
+
+.subs {
+  text-align: center;
+}
+
+.sub_btn {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.subscribe {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.line {
+  width: 100%;
+  border: 3px solid black;
+}
+
+.footer_head {
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dish {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 50px;
+  }
+  .input_bar {
+    width: 150px;
+    height: 30px;
+    border: 3px solid black;
+  }
+  .sub_btn {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .fr {
+    height: 200px;
+  }
+  .second_page_book_head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .cook {
+    height: 600px;
+    z-index: 2;
+  }
+  .chicken {
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    right: 100px;
+    margin-top: 50px;
+  }
+  .books {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .big {
+    width: 100px;
+  }
+  .small {
+    width: 50px;
+  }
+  .sword {
+    height: 280px;
+    margin-bottom: 50px;
+    position: absolute;
+  }
+  .frame {
+    height: 300px;
+  }
+  .fodd {
+    height: 220px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .dish {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 50px;
+  }
+  .start_desert {
+    height: 350px;
+  }
+  .start_desert {
+    height: 250px;
+  }
+  .noodles_black {
+    height: 560px;
+  }
+  .hero2_img {
+    margin-top: 200px;
+    height: 600px;
+  }
+  .hero_land {
+    overflow: hidden;
+  }
+  .knife {
+    margin-top: 200px;
+    height: 400px;
+  }
+  .second_page_book_head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .second_page_text {
+    margin-top: 200px;
+  }
+  .second_page_book {
+    margin-top: 20px;
+  }
+  .hero2_img {
+    margin-top: 50px;
+    height: 700px;
+  }
+  .hero_subtext {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .hero_mainText {
+    margin-top: 5px;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .newsletter {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 130px;
+  }
+  .hero_mainText_2 {
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 800;
+    background-color: rgb(255, 37, 37);
+  }
+  .hero_text {
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .hero_land {
+    overflow: hidden;
+  }
+  .mon {
+    height: 600px;
+  }
+  .hero_text {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .second_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .second_page_text {
+    max-width: 350px;
+  }
+  .knife {
+    margin-right: 70px;
+  }
+  .second_page_book {
+    justify-content: center;
+  }
+  .hero2_img {
+    height: 700px;
+  }
+  .noodles_black {
+    height: 400px;
+  }
+  .second_page_book_head {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .menu_text {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .menu_book_btn {
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    width: 150px;
+    height: 29px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .start_desert {
+    height: 150px;
+  }
+  .menu_text {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .second_page_book_sub {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .knife {
+    margin-top: 0px;
+    height: 400px;
+  }
+  .second_page_text {
+    margin-top: 0px;
+  }
+  .hero_text {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .fodd {
+    height: 180px;
+    margin-top: 20px;
+  }
+  .fr {
+    height: 145px;
+  }
+  .subscribe {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .chicken {
+    display: none !important;
+  }
+  .hero_text {
+    text-align: center;
+    flex-direction: column;
+    width: 140px;
+  }
+  .hero_subtext {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .hero_mainText {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .hero_mainText_2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: rgb(255, 37, 37);
+    margin-bottom: 100px;
+  }
+  .hero_text {
+    margin-top: 0px;
+  }
+  .knife {
+    height: 300px;
+    margin-right: 0px;
+  }
+  .menu_item {
+    display: flex;
+    flex-direction: column;
+  }
+  .nod_head {
+    margin-top: 30px;
+  }
+  .hero2_img {
+    margin-top: 50px;
+    height: 480px;
+  }
+  .start_desert {
+    height: 250px;
+    margin-top: 30px;
+  }
+  .second_page_book_btn {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    margin-top: 40px;
+    width: 180px;
+    height: 40px;
+    font-weight: 500;
+  }
+  .zuko {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .books {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .zip {
+    margin-top: 10px;
+  }
+  .frame {
+    height: 200px;
+  }
+  .peace {
+    z-index: 4;
+    position: relative;
+    right: 70px;
+  }
+  .fox {
+    position: relative;
+    right: 150px;
+    z-index: 3;
+  }
+  .swords {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    margin-top: 50px;
+  }
+  .cha {
+    margin-top: 20px;
+  }
+  .subscribe {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .fr {
+    display: none;
+  }
+  .newsletter {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+  }
+  .cook {
+    height: 450px;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .hero_text {
+    text-align: center;
+    flex-direction: column;
+  }
+  .hero_subtext {
+    font-size: 10px !important;
+    font-weight: 700;
+  }
+  .hero_mainText {
+    margin-top: 5px;
+    font-size: 18px !important;
+    font-weight: 700;
+  }
+  .hero_mainText_2 {
+    margin-top: 10px;
+    font-size: 18px !important;
+    font-weight: 700;
+    background-color: rgb(255, 37, 37);
+    margin-bottom: 100px;
+  }
+  .mon {
+    height: 400px;
+  }
+  .knife {
+    height: 250px;
+    margin-right: 0px;
+  }
+  .second_page_book_head {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .second_page_book_sub {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .second_page_book_btn {
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    font-weight: 500;
+  }
+  .hero2_img {
+    margin-top: 50px;
+    height: 420px;
+  }
+  .sub_btn {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    font-size: 14px;
+  }
+  .input_bar {
+    width: 120px;
+    height: 27px;
+    border: 3px solid black;
+  }
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.lag {
+  width: 80px;
+  height: 80px;
+}
+
+.header_element {
+  margin-right: 45px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.logog {
+  height: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+  .fotter_bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 110px) {
+  .footer_head {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .desk {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .mob {
+    display: none;
+    gap: 100px;
+  }
+}
+.mob {
+  gap: 250px;
+}
+
+.close-icon {
+  width: 30px;
+  height: 50px;
+}
+
+.quotes {
+  width: 350px;
+  height: 70px;
+  margin-top: 40px;
+}
+
+.eyes {
+  width: 500px;
+}
+
+.girl {
+  height: 750px;
+}
+
+.drinks {
+  height: 200px;
+}
+
+.man {
+  height: 700px;
+}
+
+.reserve {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.D2 {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.inputbars {
+  display: grid;
+}
+
+.barrs {
+  margin-top: 10px;
+  height: 50px;
+  width: 500px;
+  border: 3px solid black;
+}
+
+.barr {
+  margin-top: 10px;
+  height: 100px;
+  width: 500px;
+  border: 3px solid black;
+}
+
+.tablesReservation {
+  text-align: center;
+  position: relative;
+  left: 60px;
+}
+
+.formContent {
+  margin-top: 150px;
+  margin-left: 3%;
+  margin-bottom: 150px;
+}
+
+.check {
+  height: 20px;
+  width: 20px;
+  border: 3px solid black;
+  margin-right: 30px;
+}
+
+.order {
+  color: white;
+  background-color: black;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 500px;
+}
+
+@media only screen and (max-width: 770px) {
+  .girl {
+    height: 150px;
+    display: none;
+  }
+  .drinks {
+    display: none;
+  }
+  .man {
+    display: none;
+  }
+  .barrs {
+    margin-top: 10px;
+    height: 50px;
+    width: 80%;
+    border: 3px solid black;
+  }
+  .barr {
+    margin-top: 10px;
+    height: 100px;
+    width: 80%;
+    border: 3px solid black;
+  }
+  .order {
+    color: white;
+    background-color: black;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 80%;
+  }
+  .quotes {
+    width: 200px;
+    height: 70px;
+    margin-top: 40px;
+  }
+  .eyes {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .quotes {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+  }
+  .eyes {
+    width: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .tablesReservation {
+    text-align: center;
+    position: relative;
+    left: 10px;
+  }
+  .reserve {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+.chinesse {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.story_head_text {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.story_sub_text {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.welcome_cult {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mv_img {
+  position: relative;
+  top: 180px;
+  z-index: 1;
+}
+
+.mvimg {
+  height: 700px;
+}
+
+.pie_slice {
+  height: 400px;
+}
+
+.mission_head {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.fanboy {
+  height: 850px;
+}
+
+.leaf {
+  margin-top: 200px;
+  height: 180px;
+}
+
+.chef_head {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.chef_text {
+  max-width: 400px;
+}
+
+.crop {
+  height: 300px;
+}
+
+.drag_images {
+  margin-top: 140px;
+}
+
+.mission_text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.right_pie {
+  height: 800px;
+}
+
+.second_pp {
+  height: 250px;
+  margin-right: 10%;
+  position: relative;
+  bottom: 50px;
+}
+
+.first_pp {
+  height: 200px;
+}
+
+.barw {
+  position: relative;
+  bottom: 200px;
+  z-index: 0;
+}
+
+.story_main_text {
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .chinesse {
+    width: 200px;
+    height: 70px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .mvimg {
+    height: 530px;
+  }
+  .mv_img {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+  }
+  .fanboy {
+    height: 750px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .mvimg {
+    height: 410px;
+    width: 450px;
+  }
+  .crop {
+    margin-bottom: 100px;
+    height: 150px;
+  }
+  .fanbooy {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .mv_img {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+  }
+  .fanboy {
+    height: 750px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .mvimg {
+    height: 310px;
+    width: 250px;
+    position: relative;
+    bottom: 100px;
+  }
+  .second_pp {
+    height: 150px;
+    margin-right: 10%;
+    position: relative;
+    bottom: -40px;
+  }
+  .fanbooy {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .first_pp {
+    height: 100px;
+  }
+  .mv_img {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+  }
+  .fanboy {
+    height: 750px;
+  }
+  .imaginatio {
+    display: none;
+  }
+  .right_pie {
+    height: 500px;
+  }
+}
+.guest_card_one {
+  background-image: url("/play.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_two {
+  background-image: url("/tables.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_three {
+  background-image: url("/fiest.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_four {
+  background-image: url("/glu.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_texts {
+  position: relative;
+  /* Add positioning */
+  z-index: 2;
+  /* Increase the z-index to make it appear above the .mountain_bg */
+}
+
+.card_div {
+  position: relative;
+  height: 1000px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.card_div2 {
+  position: relative;
+  height: 2000px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.mountain_header {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.mountain_sub {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mountain_cards {
+  padding: 70px 50px 70px;
+  background-color: #201b19;
+}
+
+.creamy {
+  margin-top: 70px;
+  height: 600px;
+}
+
+.voucher_text {
+  max-width: 500px;
+}
+
+.luckybtn {
+  justify-items: center;
+  align-items: center;
+}
+
+.lucky {
+  max-width: 1200px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card_texts_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bbb {
+  position: absolute;
+  z-index: 4;
+  margin-top: 250px;
+  color: wheat;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.mount_bg {
+  background-image: url("/mount.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  width: 1300px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  top: 600px;
+}
+
+.card_texts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.cardy {
+  height: 1000px;
+}
+
+.mountain_bg {
+  background-image: url("/bg_lead.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  top: 600px;
+}
+
+.guest_card_five {
+  background-image: url("/div.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_text {
+  max-width: 400px;
+  margin-right: 60px;
+  color: white;
+}
+
+.guest_header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.chinesse {
+  height: 100px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .cardy {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .sooop {
+    gap: 20px;
+  }
+  .cardy {
+    height: 700px;
+  }
+  .chinesse {
+    height: 40px;
+    margin-top: 30px;
+  }
+  .guest_card_one {
+    background-image: url("/play.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_two {
+    background-image: url("/tables.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_three {
+    background-image: url("/fiest.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_four {
+    background-image: url("/glu.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_five {
+    background-image: url("/div.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card_texts {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .bbb {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .creamy {
+    margin-top: 70px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .shupe {
+    display: none;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .chinesse {
+    height: 40px;
+    margin-top: 30px;
+    width: 100px;
+  }
+  .bbb {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .creamy {
+    margin-top: 70px;
+    height: 250px;
+  }
+  .sooop {
+    flex-direction: column;
+    align-items: center;
+  }
+  .guest_card_one {
+    background-image: url("/play.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+  }
+  .guest_card_two {
+    background-image: url("/tables.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+  }
+  .heyy {
+    display: none;
+  }
+  .lucky {
+    max-width: 1200px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.breakdas {
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.food_tray {
+  background-color: #201b19;
+}
+
+.food {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: wheat;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.food_img {
+  width: 500px;
+  height: 300px;
+}
+
+.add_to_cart_button {
+  color: #201b19;
+  height: 40px;
+  border-radius: 10px;
+  width: 90%;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 30px;
+  background-color: rgb(237, 219, 166);
+}
+
+.product_name {
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.del {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
+.product_des {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 200;
+}
+
+.knuckle {
+  height: 900px;
+}
+
+.ku {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.knuckle {
+  /* Add any styles you want for the images */
+}
+
+.text-container {
+  /* Add any styles you want for the text */
+  position: relative;
+  bottom: 300px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.descri {
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .quotes {
+    width: 210px;
+    height: 70px;
+    margin-top: 40px;
+  }
+  .knuckle {
+    height: 650px;
+  }
+  .food {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: wheat;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .quotes {
+    width: 210px;
+    height: 70px;
+    margin-top: 40px;
+  }
+  .knuckle {
+    height: 450px;
+  }
+  .descri {
+    max-width: 500px;
+    position: relative;
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .quotes {
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+  }
+  .food {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: wheat;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .knuckle {
+    height: 250px;
+  }
+  .descri {
+    max-width: 250px;
+  }
+  .text-container {
+    /* Add any styles you want for the text */
+    position: relative;
+    bottom: 200px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=globals.css.map */

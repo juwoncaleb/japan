@@ -1,0 +1,332 @@
+.guest_card_one {
+  background-image: url("/play.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_two {
+  background-image: url("/tables.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_three {
+  background-image: url("/fiest.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_four {
+  background-image: url("/glu.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_texts {
+  position: relative;
+  /* Add positioning */
+  z-index: 2;
+  /* Increase the z-index to make it appear above the .mountain_bg */
+}
+
+.card_div {
+  position: relative;
+  height: 1000px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.card_div2 {
+  position: relative;
+  height: 2000px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.mountain_header {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.mountain_sub {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mountain_cards {
+  padding: 70px 50px 70px;
+  background-color: #201b19;
+}
+
+.creamy {
+  margin-top: 70px;
+
+  height: 600px;
+}
+
+.voucher_text {
+  max-width: 500px;
+}
+
+.luckybtn {
+  justify-items: center;
+  align-items: center;
+}
+
+.lucky {
+  max-width: 1200px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card_texts_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bbb {
+  position: absolute;
+  z-index: 4;
+  margin-top: 250px;
+  color: wheat;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.mount_bg {
+  background-image: url("/mount.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  width: 1300px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  top: 600px;
+}
+
+.card_texts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.cardy {
+  height: 1000px;
+}
+
+.mountain_bg {
+  background-image: url("/bg_lead.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+  top: 600px;
+}
+
+.guest_card_five {
+  background-image: url("/div.webp");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-top: 104px;
+  padding-left: 104px;
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guest_card_text {
+  max-width: 400px;
+  margin-right: 60px;
+  color: white;
+}
+
+.guest_header {
+  font-size: 40px;
+  font-weight: 700;
+}
+.chinesse {
+  height: 100px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .cardy {
+    height: 700px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .sooop {
+    gap: 20px;
+  }
+  .cardy {
+    height: 700px;
+  }
+  .chinesse {
+    height: 40px;
+    margin-top: 30px;
+  }
+  .guest_card_one {
+    background-image: url("/play.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_two {
+    background-image: url("/tables.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_three {
+    background-image: url("/fiest.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guest_card_four {
+    background-image: url("/glu.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .guest_card_five {
+    background-image: url("/div.webp");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-top: 104px;
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card_texts {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .bbb {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .creamy {
+    margin-top: 70px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+    .shupe{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .chinesse {
+        height: 40px;
+        margin-top: 30px;
+        width: 100px;
+      }
+      .bbb {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .creamy {
+        margin-top: 70px;
+        height: 250px;
+      }
+      .sooop{
+        flex-direction: column;
+        align-items: center;
+      }
+      .guest_card_one {
+        background-image: url("/play.webp");
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-top: 104px;
+        max-width: 1200px;
+        height: 600px;
+       
+      }
+      .guest_card_two {
+        background-image: url("/tables.webp");
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-top: 104px;
+        max-width: 1200px;
+        height: 600px;
+        
+      }
+      .heyy{
+        display: none;
+      }
+      .lucky {
+        max-width: 1200px;
+        font-size: 20px;
+        font-weight: 700;
+      }
+}

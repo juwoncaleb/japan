@@ -1,0 +1,792 @@
+.hero_text {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 400px;
+}
+
+.main {
+    // background-color: rgba(245, 222, 179, 0.445);
+}
+
+.hero_subtext {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.hero_mainText {
+    margin-top: 5px;
+    font-size: 68px;
+    font-weight: 800;
+}
+
+.hero_mainText_2 {
+    margin-top: 10px;
+    font-size: 68px;
+    font-weight: 800;
+    background-color: rgb(255, 37, 37);
+}
+
+.hero2_img {
+    height: 1000px;
+}
+
+.knife {
+    height: 600px;
+}
+
+.second_page_book {
+    margin-top: 300px;
+}
+
+.second_page_book_head {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.second_page_book_sub {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.second_page_text {
+    margin-top: 70px;
+
+}
+
+.second_page_tex {
+    margin-top: 70px;
+    z-index: 2;
+}
+
+.second_page_book_btn {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    margin-top: 40px;
+    width: 220px;
+    height: 55px;
+    font-weight: 500;
+}
+
+.menu_item {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.noodles_black {
+    height: 700px;
+}
+
+.start_desert {
+    height: 350px;
+}
+
+.fodd {
+    height: 250px;
+
+}
+
+.menu_item {
+    margin-top: 150px;
+}
+
+.menu_book_btn {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    width: 220px;
+    height: 55px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.menu_text {
+    font-size: 18px;
+}
+
+.dish {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 150px;
+}
+
+.f1 {
+    height: 95px;
+    margin-left: 190px;
+    position: relative;
+    top: 450px;
+}
+
+.chicken {
+    height: 200px;
+    z-index: 2;
+}
+
+.stick_one {
+    height: 500px;
+    z-index: 0;
+    position: absolute;
+    transform: rotate(20deg);
+
+}
+
+.zuko {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+}
+
+.stick_two {
+    z-index: 1;
+    height: 500px;
+    transform: rotate(-5deg);
+    position: absolute;
+
+}
+
+.chop {
+    position: relative;
+}
+
+.stick_item {
+    position: relative;
+}
+
+.cook {
+    height: 1000px;
+    z-index: 2;
+}
+
+.banner {
+    z-index: 1;
+}
+
+.books {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.frame {
+    height: 400px;
+}
+
+.curve {
+    position: relative;
+    bottom: 200px;
+}
+
+.na {
+    z-index: 5;
+}
+
+.photo {
+    z-index: 4;
+    position: relative;
+    left: 70px;
+}
+
+.peace {
+    z-index: 4;
+    position: relative;
+    right: 70px;
+}
+
+.fox {
+    position: relative;
+    right: 150px;
+    z-index: 3;
+}
+
+.catty {
+    position: relative;
+    left: 150px;
+    z-index: 3;
+}
+
+.items {
+    overflow: hidden;
+    position: relative;
+}
+
+.sword {
+    height: 700px;
+    position: absolute;
+}
+
+.test {
+    position: relative;
+}
+
+// @media only screen and (min-width: 1440px) {
+//     .swords {
+//         z-index: 2;
+//         position: absolute;
+//         top: 100px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//       z-index: 20;
+//       margin-left: 15%;
+//     }
+// }
+.swords {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    margin-top: 150px;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+}
+
+.small {
+    width: 100px;
+}
+
+.big {
+    width: 200px;
+}
+
+.cha {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.feast {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.carousel {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.inpu_barr {
+    margin-top: 20px;
+}
+
+.fr {
+    height: 300px;
+}
+
+.input_bar {
+    width: 250px;
+    height: 40px;
+    border: 3px solid black;
+}
+
+.newsletter {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 130px;
+}
+
+.subs {
+    text-align: center;
+}
+
+.sub_btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.subscribe {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.line {
+    width: 100%;
+    border: 3px solid black;
+}
+
+.footer_head {
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .dish {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 50px;
+    }
+
+    .input_bar {
+        width: 150px;
+        height: 30px;
+        border: 3px solid black;
+    }
+
+    .sub_btn {
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .fr {
+        height: 200px;
+    }
+
+    .second_page_book_head {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .cook {
+        height: 600px;
+        z-index: 2;
+    }
+
+    .chicken {
+        height: 100px;
+        z-index: 2;
+        position: relative;
+        right: 100px;
+        margin-top: 50px;
+    }
+
+    .books {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .big {
+        width: 100px;
+    }
+
+    .small {
+        width: 50px;
+    }
+
+    .sword {
+        height: 280px;
+        margin-bottom: 50px;
+        position: absolute;
+        ;
+    }
+
+    .frame {
+        height: 300px;
+    }
+
+    .fodd {
+        height: 220px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+
+    .dish {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 50px;
+    }
+
+    .start_desert {
+        height: 350px;
+    }
+
+    .start_desert {
+        height: 250px;
+    }
+
+    .noodles_black {
+        height: 560px;
+    }
+
+    .hero2_img {
+        margin-top: 200px;
+        height: 600px;
+    }
+
+    .hero_land {
+        overflow: hidden;
+    }
+
+    .knife {
+        margin-top: 200px;
+        height: 400px;
+    }
+
+    .second_page_book_head {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .second_page_text {
+        margin-top: 200px;
+
+    }
+
+    .second_page_book {
+        margin-top: 20px;
+    }
+
+    .hero2_img {
+        margin-top: 50px;
+        height: 700px;
+    }
+
+    .hero_subtext {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .hero_mainText {
+        margin-top: 5px;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .newsletter {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 130px;
+    }
+
+    .hero_mainText_2 {
+        margin-top: 10px;
+        font-size: 45px;
+        font-weight: 800;
+        background-color: rgb(255, 37, 37);
+    }
+
+    .hero_text {
+        text-align: center;
+        flex-direction: column;
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero_land {
+        overflow: hidden;
+    }
+
+    .mon {
+        height: 600px;
+    }
+
+    .hero_text {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .second_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .second_page_text {
+        max-width: 350px;
+    }
+
+    .knife {
+        margin-right: 70px;
+    }
+
+    .second_page_book {
+        justify-content: center;
+    }
+
+    .hero2_img {
+        height: 700px;
+    }
+
+    .noodles_black {
+        height: 400px;
+    }
+
+    .second_page_book_head {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .menu_text {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .menu_book_btn {
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        width: 150px;
+        height: 29px;
+        font-weight: 500;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .start_desert {
+        height: 150px;
+    }
+
+    .menu_text {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .second_page_book_sub {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .knife {
+        margin-top: 0px;
+        height: 400px;
+    }
+
+    .second_page_text {
+        margin-top: 0px;
+
+    }
+
+    .hero_text {
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .fodd {
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .fr {
+        height: 145px;
+    }
+
+    .subscribe {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .chicken {
+        display: none !important;
+    }
+
+    .hero_text {
+        text-align: center;
+        flex-direction: column;
+        width: 140px;
+    }
+
+    .hero_subtext {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .hero_mainText {
+        margin-top: 5px;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .hero_mainText_2 {
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: 800;
+        background-color: rgb(255, 37, 37);
+        margin-bottom: 100px;
+    }
+
+    .hero_text {
+        margin-top: 0px;
+    }
+
+    .knife {
+        height: 300px;
+        margin-right: 00px;
+    }
+
+    .menu_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nod_head {
+        margin-top: 30px;
+    }
+    .hero2_img {
+        margin-top: 50px;
+        height: 480px;
+    }
+    .start_desert {
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .second_page_book_btn {
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        margin-top: 40px;
+        width: 180px;
+        height: 40px;
+        font-weight: 500;
+    }
+
+    .zuko {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .books {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .zip {
+        margin-top: 10px;
+    }
+
+    .frame {
+        height: 200px;
+    }
+
+    .peace {
+        z-index: 4;
+        position: relative;
+        right: 70px;
+    }
+
+    .fox {
+        position: relative;
+        right: 150px;
+        z-index: 3;
+    }
+
+    .swords {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+        margin-top: 50px;
+    }
+
+    .cha {
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .fr {
+        display: none;
+    }
+
+    .newsletter {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 50px;
+    }
+
+    .cook {
+        height: 450px;
+        z-index: 2;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .hero_text {
+        text-align: center;
+        flex-direction: column;
+    }
+    .hero_subtext {
+        font-size: 10px !important;
+        font-weight: 700;
+    }
+    .hero_mainText {
+        margin-top: 5px;
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+
+    .hero_mainText_2 {
+        margin-top: 10px;
+        font-size: 18px !important;
+        font-weight: 700;
+        background-color: rgb(255, 37, 37);
+        margin-bottom: 100px;
+    }
+    .mon {
+        height: 400px;
+    }
+    .knife {
+        height: 250px;
+        margin-right: 00px;
+    }
+    .second_page_book_head {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .second_page_book_sub {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .second_page_book_btn {
+        font-size: 13px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        margin-top: 10px;
+        width: 140px;
+        height: 30px;
+        font-weight: 500;
+    }
+    .hero2_img {
+        margin-top: 50px;
+        height: 420px;
+    }
+    
+    .sub_btn {
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        width: 100px;
+        font-size:14px;
+    }
+    .input_bar {
+        width: 120px;
+        height: 27px;
+        border: 3px solid black;
+    }
+}

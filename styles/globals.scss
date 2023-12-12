@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './landingpage.module';
+@import './header.module';
+@import './quotes.modules';
+@import './story.module';
+@import './guest.module';
+@import './menu.module';
