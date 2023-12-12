@@ -6,7 +6,7 @@ export default function Footer() {
       {" "}
       <hr className="line mt-4 mb-14" />
       <div className="flex fotter_bar gap-6 justify-around">
-        <img className="logog" src="./logooo.png" />
+        <img className="logog" src="https://ik.imagekit.io/juwoncaleb/lg5_rVTBcAOIp.PNG?updatedAt=1702419333832" />
         <div>
           <p className="footer_head">ADDRESS</p>
           <p>43, cole street Fadeyi</p>

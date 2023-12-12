@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </div>
         <Link href="./">
-          <img className="logo" src="./logooo.png" />
+          <img className="logo" src="https://ik.imagekit.io/juwoncaleb/lg5_rVTBcAOIp.PNG?updatedAt=1702419333832" />
         </Link>
         <div className="flex justify-around">
           <Link href="./story">
@@ -33,7 +33,7 @@ export default function Header() {
         </div>
       </div>
       <div className="flex mob mr-4 justify-between">
-        <img className="logo" src="./logooo.png" />
+        <img className="logo" src="https://ik.imagekit.io/juwoncaleb/lg5_rVTBcAOIp.PNG?updatedAt=1702419333832" />
 
         <div className="mt-5">
           {/* Hamburger Menu */}
